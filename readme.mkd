@@ -9,11 +9,9 @@ These templates use Twitter-bootstrap CSS to integrate Userena into a bootstrsap
 
 ## Requirements
 
-django >= 1.3
-
-Userena >= 1.02
-
-django-bootstrap-form >= 2.03
+    django >= 1.3
+    Userena >= 1.02
+    django-bootstrap-form >= 2.03
 
 And also
 
@@ -22,15 +20,15 @@ Twitter bootstrap 2 (you must load the CSS files)
 
 ## Installation
 
-pip install -e git://github.com/piran/userena-bootstrap.git#egg=userenabootstrap
+    pip install -e git://github.com/syntaxsugar/userena-bootstrap.git#egg=userenabootstrap
 
 Add the apps to your settings file BEFORE userena
 
-INSTALLED_APPS = (
-    ...
-    'bootstrapform',
-    'userenabootstrap',
-    'userena',
-    ...
-)
+    INSTALLED_APPS = (
+        ...
+        'bootstrapform',
+        'userenabootstrap',
+        'userena',
+        ...
+    )
 
