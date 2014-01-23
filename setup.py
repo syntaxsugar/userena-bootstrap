@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import sys
 
-readme_file = 'readme.mkd'
+readme_file = 'README.rst'
 try:
     long_description = open(readme_file).read()
 except IOError, err:
@@ -11,13 +11,13 @@ except IOError, err:
 
 setup(name='userena-bootstrap',
       version=0.1,
-      description='Complete user management application for Django',
+      description='Twitter Bootstrap Templates for Django Userena',
       long_description=long_description,
       zip_safe=False,
       author='Rich Atkinson',
       author_email='rich@piran.com.au',
-      url='https://github.com/piran/userena-bootstrap',
-      download_url='https://github.com/piran/userena-bootstrap/downloads',
+      url='https://github.com/syntaxsugar/userena-bootstrap',
+      download_url='https://github.com/syntaxsugar/userena-bootstrap/downloads',
       packages = find_packages(exclude=['demo_project', 'demo_project.*']),
       include_package_data=True,
       install_requires = [
@@ -33,5 +33,6 @@ setup(name='userena-bootstrap',
                      'Operating System :: OS Independent',
                      'Programming Language :: Python',
                      'Topic :: Utilities'],
+      license='BSD',
       )
 

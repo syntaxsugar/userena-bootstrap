@@ -1,4 +1,8 @@
-# Twitter Bootstrap Templates for Django Userena
+==============
+Python-USDOL
+==============
+
+Twitter Bootstrap Templates for Django Userena
 
 Userena is a Django application that supplies your Django project with full
 account management. It's a fully customizable application that takes care of
@@ -7,7 +11,9 @@ can use it commercially for free!
 
 These templates use Twitter-bootstrap CSS to integrate Userena into a bootstrsap application.
 
-## Requirements
+------------
+Requirements
+------------
 
     django >= 1.3
     Userena >= 1.02
@@ -17,8 +23,9 @@ And also
 
 Twitter bootstrap 2 (you must load the CSS files)
 
-
-## Installation
+------------
+Installation
+------------
 
     pip install -e git://github.com/syntaxsugar/userena-bootstrap.git#egg=userenabootstrap
 
